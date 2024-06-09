@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 160px 160px;
+  grid-row-gap: 20px;
+}
+
+.box {
+  display: flex;
+  width: 120px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.purple {
+  background-color: purple;
+}
