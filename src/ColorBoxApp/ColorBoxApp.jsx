@@ -26,6 +26,7 @@ function ColorBoxApp() {
 
   return (
     <>
+      <h1>Ex: Color Box App</h1>
       <p>Current color: {isChangeColor ? currentColor : "Default"}</p>
       <div className="container">
         <ColorBox
